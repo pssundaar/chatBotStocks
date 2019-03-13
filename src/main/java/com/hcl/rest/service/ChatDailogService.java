@@ -63,7 +63,7 @@ public class ChatDailogService
   
   Logger logger = LoggerFactory.getLogger(ChatDailogService.class);
   
-  @POST
+  @GET
   @Path("/post")
   @Consumes({"application/json"})
   
