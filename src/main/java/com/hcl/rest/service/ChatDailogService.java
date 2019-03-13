@@ -10,7 +10,7 @@ import com.hcl.rest.model.User;
 import com.hcl.rest.sharemarket.Demo;
 import com.hcl.rest.sharemarket.websiteReader;
 import com.sun.jersey.api.client.ClientResponse;
-
+import javax.ws.rs.GET;
 import yahoofinance.Stock;
 import yahoofinance.YahooFinance;
 import yahoofinance.quotes.stock.StockQuote;
