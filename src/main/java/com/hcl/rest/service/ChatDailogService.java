@@ -93,10 +93,9 @@ public class ChatDailogService
      
         String action = request.getQueryResult().getAction();
         
-        if (action.equalsIgnoreCase("getStocks"))
-        {
+        
           speech = getStocks(con, properties);
-        }
+        
         
       }
  
